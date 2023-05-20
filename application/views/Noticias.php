@@ -2,7 +2,7 @@
     <h5><b>Útimas notícias</b></h5>
     <div class="row">
         <div class="col-md-5">
-            <img width="60px" height="50px" class="caixa" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="60px" height="50px" class="caixa" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg') ?>">
             <b> Título da postagm </b> <br>
             Ao contrário do que se acredita não é simplesmente um
             texto randômico. Lorem Ipsum não é simplesmente Com mais de 2000 anos, suas raízes podem
@@ -11,7 +11,7 @@
     </div>
     <div class="row">
         <div class="col-md-5">
-            <img width="60px" height="50px" class="caixa" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="60px" height="50px" class="caixa" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg') ?>">
             <b> Título da postagm </b> <br>
             Ao contrário do que se acredita não é simplesmente um
             texto randômico. Lorem Ipsum não é simplesmente Com mais de 2000 anos, suas raízes podem
@@ -20,7 +20,7 @@
     </div>
     <div class="row">
         <div class="col-md-5">
-            <img width="60px" height="50px" class="caixa" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="60px" height="50px" class="caixa" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg') ?>">
             <b> Título da postagm </b> <br>
             Ao contrário do que se acredita não é simplesmente um
             texto randômico. Lorem Ipsum não é simplesmente Com mais de 2000 anos, suas raízes podem

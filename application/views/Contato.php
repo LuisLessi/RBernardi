@@ -4,7 +4,7 @@
         <div class="col-md-5">
             <div class="Mapa">
                 <h4> <b> Localização </b> </h4>
-                <img width="330px;" height="250px;" src="../../assets/Imgs/mapa.jpg" alt=""><br>
+                <img width="330px;" height="250px;" src="<? echo base_url('assets/Imgs/mapa.jpg') ?>" alt=""><br>
                 Rua machado de Assis,121 </br>
                 Raim Manhoca
                 Pscicaliandia - UF
@@ -20,6 +20,28 @@
         <div class="col-md-7">
             <h4> <b> Envie uma mensagem </b> </h4><br>
             <div class="Formulário">
+                <?php 
+                    if($formerror);
+                        echo '<p>'.$formerror.'</p>';
+                    echo form_open('pagina/contato');
+
+                    echo form_label('Seu Nome:', 'nome') . '<br>';
+                    echo form_input('nome', set_value('nome'), 'style="width: 80%; height: 29px;"') . '<br>';
+
+                    echo form_label('Seu Email:', 'email') . '<br>';
+                    echo form_input('email', set_value('email'), 'style="width: 80%; height: 29px;"') . '<br>';
+
+                    echo form_label('Assunto:', 'assunto') . '<br>';
+                    echo form_input('assunto', set_value('assunto'), 'style="width: 80%; height: 29px;"') . '<br>';
+
+                    echo form_label('Mensagem:', 'mensagem') . '<br>';
+                    echo form_textarea('mensagem', set_value('mensagem'), 'style="width: 80%; height: 100px;"') . '<br>';
+
+
+                    echo form_submit('enviar', 'Enviar Mensagem >>', 'class="btn btn-info"');
+                    echo form_close();
+                ?>
+               <!--
                 <form action="" method="get">
                     <label> Seu Nome</label><br>
                     <input type="text" style="width: 80%; height: 29px;"  name="Usuario_Nome" id="Usuario-Nome"><br>
@@ -31,6 +53,7 @@
                     <input type="text" style="width: 80%; height: 100px;"  name="Usuario_Msg" id="Usuario-Msg">
                     <button type="submit" class="btn btn-info" style="margin-top: 3%;">Enviar Mensagem &raquo;</button>
                 </form>
+                -->
             </div>
         </div>
     </div>

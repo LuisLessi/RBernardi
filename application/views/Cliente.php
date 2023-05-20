@@ -5,7 +5,7 @@
         <p style="margin-left: 1.5%;"><b> Veja quem já contratou nossos serviços </b></p>
         <div class="col-md-5">
             <p> Nome da Empresa 1 </p>
-            <img width="375px" height="200px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="375px" height="200px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -16,7 +16,7 @@
 
         <div class="col-md-5">
             <p> Nome da Empresa 2 </p>
-            <img width="375px;" height="200px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="375px;" height="200px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;">
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -29,7 +29,7 @@
     <div class="row" style="margin-top: 2%;">
         <div class="col-md-3">
             <p> Nome da Empresa 3 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -39,7 +39,7 @@
 
         <div class="col-md-3">
             <p> Nome da Empresa 4 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -49,7 +49,7 @@
 
         <div class="col-md-3">
             <p> Nome da Empresa 5 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -61,7 +61,7 @@
     <div class="row" style="margin-top: 2%;">
         <div class="col-md-3">
             <p> Nome da Empresa 6 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -71,7 +71,7 @@
 
         <div class="col-md-3">
             <p> Nome da Empresa 7 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 
@@ -81,7 +81,7 @@
 
         <div class="col-md-3">
             <p> Nome da Empresa 8 </p>
-            <img width="210px" height="100px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="210px" height="100px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg')?>">
             <article style="text-align: justify;"> 
                 É um fato conhecido de todos que um leitor se distrairá com 
                 o conteúdo de texto legível de uma página quando estiver examinando 

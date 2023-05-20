@@ -11,7 +11,7 @@
         <div class="col-md-5" style="text-align: justify;">
             <div>
                 <h4> <b> Formação Pessoal </b> </h4>
-                <img width="170px;" height="170px;" src="../../assets/Imgs/ChapeuFormatura.jpg" alt="">
+                <img width="170px;" height="170px;" src="<? echo base_url('assets/Imgs/ChapeuFormatura.jpg') ?>" alt="">
                 <div style="width:70%;">
                     <ul>
                         <li> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat in culpa qui </li>

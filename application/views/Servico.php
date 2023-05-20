@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-3">
             <h4 style="margin-left: 1.5%;"> O que eu faço ? </h4>
-            <img width="170px;" height="170px;" src="../../assets/Imgs/LampadaIdeia.jpg" alt="">
+            <img width="170px;" height="170px;" src="<? echo base_url('assets/Imgs/LampadaIdeia.jpg"') ?>" alt="">
             <div class="lista">
                 <ul>
                     <li>Identidade Visual</li>

@@ -10,18 +10,18 @@
             Nome da Empresa 5</br>
             Nome da Empresa 6</br>
             Nome da Empresa 7</br>
-            <button class="btn btn-info" style="margin-top: 1%;">Ver Todos &raquo;</button>
+            <a href="<? echo base_url('cliente')?>"><button class="btn btn-info" style="margin-top: 1%;">Ver Todos &raquo;</button></a>
         </div>
 
         <div class="EmpresaTrabalho col-md-8">
             <div class="Nome"> <h4> <b> Clientes satisfeitos</b> <br> </h4> </div>
-            <img width="600px" height="300px" src="../../assets/Imgs/CaixaFerramentas.jpg">
+            <img width="600px" height="300px" src="<? echo base_url('assets/Imgs/CaixaFerramentas.jpg') ?>">
             <article style="text-align: justify;">
                 <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. 
                 Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina
                 clássica datada de 45 AC.</p>
             </article>
-            <button class="btn btn-info">Ver outros Trabalhos &raquo;</button>
+            <a href="<? echo base_url('cliente')?>"><button class="btn btn-info">Ver outros Trabalhos &raquo;</button></a>
         </div>
     </div>
     

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Home page do Site </title>
+    <title><?php echo $titulo; ?></title>
 
-    <link href="../../assets/css/estilo.css" rel="stylesheet">
-    <link href="../../assets/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../../assets/JQuery3.3.1/jquery-3.3.1.min.js"></script>
-    <script src="../../assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link href="<?php echo base_url('assets/css/estilo.css')?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/bootstrap-3.3.7/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <script src="<?php echo base_url('assets/JQuery3.3.1/jquery-3.3.1.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap-3.3.7/js/bootstrap.min.js')?>"></script>
 
 </head>
 <body style="overflow-x: hidden;">
@@ -26,14 +26,14 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
             <ul class="nav navbar-nav navbar-left" style="margin-left: 20%;">
-                <a class="navbar-brand" href="#">RBernadi</a>
+                <a class="navbar-brand" href="<? echo base_url()?>">RBernadi</a>
             </ul>
             <ul class="nav navbar-nav navbar-right" style="margin-right: 20%;">
-                <li> <a href="#"> HOME </a> </li>
-                <li> <a href="#"> CLIENTES </a> </li>
-                <li> <a href="#"> SERVIÇOS </a> </li>
-                <li> <a href="#"> SOBRE </a> </li>
-                <li> <a href="#"> CONTATO </a> </li>
+                <li> <a href="<? echo base_url()?>"> HOME</a> </li>
+                <li> <a href="<? echo base_url('cliente')?>"> CLIENTES </a> </li>
+                <li> <a href="<? echo base_url('servico')?>"> SERVIÇOS </a> </li>
+                <li> <a href="<? echo base_url('sobre')?>"> SOBRE </a> </li>
+                <li> <a href="<? echo base_url('contato')?>"> CONTATO </a> </li>
             </ul>
         </div>
     </nav>
